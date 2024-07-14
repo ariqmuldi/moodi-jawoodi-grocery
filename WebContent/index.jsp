@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>MoodiJawoodi's Grocery Main Page</title>
+        <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+        <div class="centerDivAndText"><h1 style="font-size: 40px;" class="mainTitle">Welcome To MoodiJawoodi Grocery </h1></div>
+        <div class="centerDivAndText"> <img src="./img/Hannah.png" alt="ok" width="250" height="250"> </div>
+
+        <table>
+                <td class="col4">
+                        <h3 align="center"><a class=colorHeader href="login.jsp">Login</a></h2>
+                </td>
+                <td class="col4">
+                        <h2 align="center"><a class=colorHeader href="listprod.jsp">Begin Shopping</a></h2>
+                </td>
+                <td class="col4">
+                        <h3 align="center"><a class=colorHeader href="logout.jsp">Log out</a></h2>
+                </td>
+        </table>
+
+<h2 align="center"><a href="myaccount.jsp">My Account</a></h2>
+
+<h2 align="center"><a href="listorder.jsp">List All Orders</a></h2>
+
+<h2 align="center"><a href="customer.jsp">Customer Info</a></h2>
+
+<h2 align="center"><a href="admin.jsp">Administrators</a></h2>
+
+<div class="centerDivAndText"></div>
+
+<%
+	String userName = (String) session.getAttribute("authenticatedUser");
+	if (userName != null)
+		out.println("<h3 align=\"center\">Signed in as: "+userName+"</h3>");
+%>
+
+</body>
+</head>
+
+
+
+
+
+

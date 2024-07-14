@@ -1,0 +1,105 @@
+a {
+    
+    text-decoration: none; /* Add an underline */
+}
+
+.colorA1 {
+    color: orange;
+}
+
+.colorHeader {
+    color: #A9927D;
+}
+
+.colorATopProduct {
+    color: #F71735;
+}
+
+.centerDivAndText {
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+    text-align: center;
+
+}
+
+.mainTitle {
+    color : #872341;
+}
+
+.divCenterForm {
+    margin: 0 auto;
+    text-align:center;
+    display:inline;
+}
+
+.table {
+    border-collapse : collaspe;
+    border-spacing : 0;
+    width:100%;
+    border-color : gray;
+    
+    
+}
+
+.regTable {
+    text-align: left;
+    width: 40%;
+}
+
+body {
+
+    margin: 0; /* Remove default margin */
+}
+
+.col0 {
+    width: 10%;
+    padding : 20px;
+    text-align : center; 
+}
+
+.col1 {
+    width: 10%;
+    padding : 20px;
+    text-align : center;
+    color : blue;
+    
+}
+
+.col2 {
+    width: 10%;
+    padding : 20px;
+    text-align : center;
+    color : red;
+}
+
+.col3 {
+    width: 10%;
+    padding : 20px;
+    text-align : center;
+    color : green;
+}
+
+.col4 {
+    width: 10%;
+    padding : 20px;
+    text-align : center;
+    color : #7752FE;
+}
+
+.col5 {
+    width: 10%;
+    padding : 20px;
+    text-align : center;
+    color: #F99417
+}
+
+.col6 {
+    width: 10%;
+    padding : 20px;
+    text-align : center;
+    color: brown;
+}
+
+
