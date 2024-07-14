@@ -2,10 +2,13 @@
 
 ## Moodi Jawoodi E-commerce Grocery Store
 
-### Done by:
+#### Done by:
 - Ariq Muldi
 - Tahsin Jawwad
 
-### Languages Used:
+#### Languages Used:
 - Java
 - MySQL
+- HTML
+- CSS
+- Docker
